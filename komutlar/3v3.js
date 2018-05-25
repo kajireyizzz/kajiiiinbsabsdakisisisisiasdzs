@@ -5,7 +5,7 @@ exports.run = (client, message, args) => {
     if (!message.guild) {
       return message.channel.send(new Discord.RichEmbed().setColor('RANDOM').setTitle('Eval;').setDescription(message.author.username + ', bu komutu direkt mesajda kullanamazsın.').setFooter('OA Premium', client.user.avatarURL).setTimestamp()); }
     let user = message.mentions.users.first();
-    if (message.mentions.users.size < 3) return message.channel.send(new Discord.RichEmbed().setColor('RANDOM').setTitle('3v3').setDescription(message.author.tag + ', kullanım: r,3v3 <@kullanıcı> <@kullanıcı> <@kullanıcı> .').setFooter('Yiğitler meydanı', client.user.avatarURL).setTimestamp());
+    if (message.mentions.users.size < 3) return message.channel.send(new Discord.RichEmbed().setColor('RANDOM').setTitle('3v3').setDescription(message.author.tag + ', kullanım: oa-savaş <@kullanıcı> <@kullanıcı> <@kullanıcı> .').setFooter('Yiğitler meydanı', client.user.avatarURL).setTimestamp());
     var sans = ["10'a","1'e","20'ye","30'a"]
     var sonuc = sans[Math.floor((Math.random() * sans.length))];
       message.channel.send(new Discord.RichEmbed().setColor('RANDOM').setTitle('3v3').setDescription('Savaş başladı!').setFooter('Yiğitlerin  Savaşı yapılıyor.', client.user.avatarURL).setTimestamp())
@@ -27,5 +27,5 @@ exports.conf = {
 exports.help = {
   name: 'savas',
   description: 'Seçtiğiniz 3 kişiyi savaştırırsınız.',
-  usage: 'r,3v3 <@kullanıcı> <@kullanıcı> <@kullanıcı>'
+  usage: 'savaş <@kullanıcı> <@kullanıcı> <@kullanıcı>'
 };
