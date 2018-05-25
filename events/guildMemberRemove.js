@@ -14,7 +14,7 @@ module.exports = member => {
     const channel = member.guild.channels.find('name', 'logs');
     if (!channel) return;
     const embed = new Discord.RichEmbed()
-    .setColor('#4cff00')
+    .setColor(' #FF0000')
     .setDescription(`Sunucudan ayrıldı.!`)
     .setAuthor(member.user.tag, member.user.avatarURL || member.user.defaultAvatarURL)
     .setTitle(`@${member.user.username} #${member.user.discriminator} Ayrıldı.`)
