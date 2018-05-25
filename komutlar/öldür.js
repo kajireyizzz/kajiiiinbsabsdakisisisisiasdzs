@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const kill = require('../oldur.json');
+
 exports.run = function(client, message, args) {
 
     var user;
