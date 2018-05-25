@@ -15,7 +15,7 @@ console.log('Bot hazır ve giriş yaptı.');
 
         "Yeni komut: oa-slot ✨",
     
-        "Arkadaşlarını davet et:https://discord.gg/Dg83FZf  ✨",
+        `${prefix}davet arkadaşlarını davet et. ✨`,
 		
 		`${client.users.size} kullanıcı ✨`,
 		
