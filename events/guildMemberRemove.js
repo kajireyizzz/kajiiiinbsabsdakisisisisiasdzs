@@ -1,7 +1,11 @@
 const ayarlar = require('../ayarlar.json');
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = ayarlar.prefix;
+
+
+  
+
+
 
 module.exports = member => {
     let username = member.user.username;
@@ -10,9 +14,11 @@ module.exports = member => {
     const channel = member.guild.channels.find('name', 'logs');
     if (!channel) return;
     const embed = new Discord.RichEmbed()
-    .setColor('#ff0000')
-    .setTitle(`@${member.user.username}#${member.user.discriminator} Sunucudan ayrıldı.`)
-    .setThumbnail(member.user.avatarURL)
+    .setColor('#4cff00')
+    .setDescription(`Sunucudan ayrıldı.!`)
+    .setAuthor(member.user.tag, member.user.avatarURL || member.user.defaultAvatarURL)
+    .setTitle(`@${member.user.username} #${member.user.discriminator} Ayrıldı.`)
+    .setThumbnail(member.user.avatarURL || member.user.defaultAvatarURL)
   
     
     .setTimestamp()
