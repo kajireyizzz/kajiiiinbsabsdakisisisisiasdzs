@@ -15,7 +15,7 @@ module.exports = member => {
     if (!channel) return;
     const embed = new Discord.RichEmbed()
     .setColor('#4cff00')
-    .setDescription(`Sunucuya katıldı`)
+    .setDescription(`Yeni Üye.!`)
     .setAuthor(member.user.tag, member.user.avatarURL || member.user.defaultAvatarURL)
     .setTitle(`@${member.user.username} #${member.user.discriminator} Sunucuya katıldı,[${member.guild.memberCount} üye]!.`)
     .setThumbnail(member.user.avatarURL || member.user.defaultAvatarURL)
