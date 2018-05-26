@@ -15,7 +15,7 @@ module.exports = member => {
     if (!channel) return;
     const embed = new Discord.RichEmbed()
     .setColor(' #FF0000')
-    .setDescription(`Sunucudan ayrıldı.!`)
+    .setDescription(`Görüşürüz.!`)
     .setAuthor(member.user.tag, member.user.avatarURL || member.user.defaultAvatarURL)
     .setTitle(`@${member.user.username} #${member.user.discriminator} Ayrıldı.`)
     .setThumbnail(member.user.avatarURL || member.user.defaultAvatarURL)
