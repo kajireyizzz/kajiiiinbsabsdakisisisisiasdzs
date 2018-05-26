@@ -10,7 +10,7 @@ exports.run = (client, message, params) => {
     const yardımlistesi=new Discord.RichEmbed()
     .setColor('RANDOM')
     .setAuthor(":mag_right: Komut Listesi \n\n\n\n")
-    .addField(":slot_machine: Eğlence Komutları","**çayiç**:Size çay ısmarlar.!\n**tkm**:Bot ile taş-kağıt-makas oynarsınız.\n**yaz**:Bota istediğiniz herhangi şeyi yazdırır.!\n**savaş**:Kendiniz ve 2 kişiyi etiketleyerek botun sizi savaştırmasını sağlayabilirsiniz.\n**sarıl:Belirlenen kullanıcıya sarılır.**\n**slot**:Slot makinesiyle oynarsınız.\n**öldür**:Belirlenen kullanıcıyı öldürür.\n**yazı-tura**:Yazı-tura atarsınız.!\n**özlü**:Bot size rastgele özlü sözler söyler.\n**ml**:Bot rastgele MLBB Resmi gönderir.\n**kalp**:OA ekibinden size kalp gönderir.")
+    .addField(":slot_machine: Eğlence Komutları","**çayiç**:Size çay ısmarlar.!\n**tkm**:Bot ile taş-kağıt-makas oynarsınız.\n**yaz**:Bota istediğiniz herhangi şeyi yazdırır.!\n**savaş**:Kendinizi ve 1 kişiyi etiketleyerek botun sizi savaştırmasını sağlayabilirsiniz.\n**sarıl:Belirlenen kullanıcıya sarılır.**\n**slot**:Slot makinesiyle oynarsınız.\n**öldür**:Belirlenen kullanıcıyı öldürür.\n**yazı-tura**:Yazı-tura atarsınız.!\n**özlü**:Bot size rastgele özlü sözler söyler.\n**ml**:Bot rastgele MLBB Resmi gönderir.\n**kalp**:OA ekibinden size kalp gönderir.")
 
 
 
