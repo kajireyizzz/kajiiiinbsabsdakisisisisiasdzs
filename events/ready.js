@@ -14,6 +14,7 @@ console.log('Bot hazır ve giriş yaptı.');
     var Games = [
 	    
 	`${prefix}yardım ✨`,
+	    
         "Yeni komut: oa-espiri ✨",
     
         `${prefix}davet arkadaşlarını davet et. ✨`,
