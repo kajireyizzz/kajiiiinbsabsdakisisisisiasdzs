@@ -9,8 +9,8 @@ exports.run = (client, message, params) => {
    .setColor("ea125e")
    .addField("Discord ve Youtube Kanal Sahibi","》Onur Efser\n》Aslı Efser")
         .addField("Discord Yönetimi","》Penia(Bot geliştirici ve sunucu düzenleme)\n》Berk(Bot geliştirici ve sunucu düzenleme)")
-   .addField("Fate Ekibi","》Kadir Eren\n》Bahriye Eren\n》Sanane Bro(Hasan)")
-   .addField("Youtube Mod","》Ecem")
+   .addField("Fate Ekibi","》Kadir Eren\n》Bahriye Eren\n》Sanane Bro(Hasan)\n 》Erdem")
+   .addField("Youtube Mod","》Şeyma\n》Ecem\n》Mehmet")
    
        
       return message.channel.sendEmbed(ekip);
