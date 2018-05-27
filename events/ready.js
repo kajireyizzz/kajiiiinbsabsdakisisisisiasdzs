@@ -12,14 +12,15 @@ console.log('>>Oynuyor kısmı başarıyla güncellendi.');
 console.log('Bot hazır ve giriş yaptı.');
 
     var Games = [
-
-        "Yeni komut: oa-slot ✨",
+	    
+	`${prefix}yardım ✨`,
+        "Yeni komut: oa-espiri ✨",
     
         `${prefix}davet arkadaşlarını davet et. ✨`,
 		
 		`${client.users.size} kullanıcı ✨`,
 		
-		`${prefix}yardım ✨`,
+		
 		
 		
 	    
