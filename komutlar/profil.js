@@ -17,6 +17,8 @@ exports.run = (client, message, args) => {
       .addField('Ad:', user.username + '#' + user.discriminator)
       .addField('ID:', user.id)
       .addField('Kayıt tarihi:', user.createdAt)
+      .addField('Katılım tarihi (Sunucu)', `${userJoined}`, true)
+      .setThumbnail(`${user.displayAvatarURL}`)
       .addField('Durum:', userdurm)
       .addField('Şu an oynadığı oyun:', user.presence.game ? user.presence.game.name : 'Şu an oyun oynamıyor')
       .addField('BOT mu?', user.bot ? '\n Evet' : 'Hayır')
