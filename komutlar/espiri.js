@@ -17,7 +17,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'espiri',
+  name: 'espri',
   description: 'Espiri yapar.',
-  usage: 'espiri'
+  usage: 'espri'
 };
