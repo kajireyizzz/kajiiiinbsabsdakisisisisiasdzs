@@ -15,7 +15,7 @@ console.log('Bot hazır ve giriş yaptı.');
 	    
 	`${prefix}yardım ✨`,
 	    
-        "Her akşam 22:00`da Youtube`daki canlı yayınımızı kaçırma.!",
+        "Her akşam 22:00`da canlı yayını kaçırma.!",
     
         `${prefix}davet arkadaşlarını davet et. ✨`,
 		
