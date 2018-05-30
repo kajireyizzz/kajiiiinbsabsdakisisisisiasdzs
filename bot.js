@@ -27,36 +27,6 @@ fs.readdir('./komutlar/', (err, files) => {
   });
 });
 
-var cleverbot = require("cleverbot.io"),
-cbot = new cleverbot("87oqGvFI8SDNj7au", "M8SDQDUQ69Xl47zg026pEuxNX2MdJcMp"); // Set up keys
-
-
-client.on('message', msg => {
-
-
-
-
-
-if(message.content.includes("<@448434722461188097>"))
-{
-
-    cbot.setNick("sandbox.test"); // Set a nickname
-
-    cbot.create(function (err, session) { // Initialize Cleverbot
-    
-        cbot.ask(msg.content, function (err, response) {
-           
-            msg.channel.startTyping();
-          
-         msg.reply(response);
-                 msg.channel.stopTyping();
-            });
-                });
-     
- 
-}
-                
-});
 
 client.reload = command => {
   return new Promise((resolve, reject) => {
