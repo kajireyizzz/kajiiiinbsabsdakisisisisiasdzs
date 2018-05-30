@@ -15,7 +15,7 @@ console.log('Bot hazır ve giriş yaptı.');
 	    
 	`${prefix}yardım ✨`,
 	    
-        "Yeni komut: oa-espri ✨",
+        "Her akşam 22:00`da Youtube`daki canlı yayınımızı kaçırma.!",
     
         `${prefix}davet arkadaşlarını davet et. ✨`,
 		
