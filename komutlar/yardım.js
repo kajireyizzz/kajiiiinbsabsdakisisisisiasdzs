@@ -19,20 +19,7 @@ exports.run = (client, message, params) => {
    .addField(":closed_lock_with_key: Kurucu(Penia)","**baslat**:Adı girilen komutu yeniden başlatır.\n**sunucular**:Botun bulunduğu sunucuları mesaj atar.\n**ayarla**:Botun oyununu ayarlar.\n**reboot**:Botu yeniden başlatır.")
     message.author.send(yardımlistesi);
     //message.author.sendCode('asciidoc', `= Komut Listesi =\n\n[Komut hakkında bilgi için ${ayarlar.prefix}yardım <komut adı>]\n\n${client.commands.map(c => `${ayarlar.prefix}${c.help.name}${' '.repeat(longest - c.help.name.length)} :: ${c.help.description}`).join('\n')}`);
-  if (message.channel.type !== 'dm') {
-    const ozelmesajkontrol = new Discord.RichEmbed()
-    .setColor(0x00AE86)
-    .setTimestamp()
-    .setAuthor(message.author.username, message.author.avatarURL)
-    .addField("Özel mesajlarını kontrol et.!",'Komutları özel mesaj olarak yolladım. :postbox:');
-    message.channel.sendEmbed(ozelmesajkontrol) }
-  } else {
-    let command = params[0];
 
-
-
-
-  }
 };
 
 exports.conf = {
