@@ -11,5 +11,5 @@ module.exports = client => {
 console.log('>>Oynuyor kısmı başarıyla güncellendi.');
 console.log('Bot hazır ve giriş yaptı.');
 
-   client.setActivity("DEV GÜNCELLEME-Bilgi için:oa-yenilik");
+   client.user.setActivity("DEV GÜNCELLEME-Bilgi için:oa-yenilik");
 };
