@@ -11,30 +11,5 @@ module.exports = client => {
 console.log('>>Oynuyor kısmı başarıyla güncellendi.');
 console.log('Bot hazır ve giriş yaptı.');
 
-    var Games = [
-	    
-	`${prefix}yardım ✨`,
-	    
-        "Her akşam 22:00`da canlı yayını kaçırma.!",
-    
-        `${prefix}davet arkadaşlarını davet et. ✨`,
-		
-		`${client.users.size} kullanıcı ✨`,
-		
-		
-		
-		
-	    
-	    	
-
-
-    ];
-
-    setInterval(function() {
-
-        var random = Math.floor(Math.random()*(Games.length-0+1)+0);
-
-        client.user.setGame(Games[random], "https://www.twitch.tv/oaonair");
-        }, 2 * 2500);
-
+   client.setActivity("DEV GÜNCELLEME-Bilgi için:oa-yenilik");
 };
