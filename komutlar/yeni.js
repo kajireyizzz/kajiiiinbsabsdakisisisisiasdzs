@@ -10,6 +10,7 @@ exports.run = (client, message, params) => {
        .addField("Peki neler değişecek","Hemen hemen herşeyi en baştan sıfırdan değiştireceğim tek başıma her ne kadar yorucu olacaksada herşey sizler için.")
        .addField("Ne zaman gelecek güncelleme","Yeni güncellemenin hemen hemen 3/1`lik bir kısmı bitmiş bulunmakta ancak yeni yeni bu frameworkü gördüğüm için yabancılık çekiyorum kodlara karşı en kısa zamanda elimden geldiğince hızlı bir şekilde bitirmeye çalışacağım.")
        .setFooter("DEV GÜNCELLEME")
+   message.channel.send(ekip);
 };
 
 exports.conf = {
