@@ -22,5 +22,5 @@ exports.conf = {
 exports.help = {
   name: 'yenilik',
   description: 'Yetkililer hakkında bilgi verir.',
-  usage: 'ekip'
+  usage: 'yenilik'
 };
