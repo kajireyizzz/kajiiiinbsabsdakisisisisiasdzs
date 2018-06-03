@@ -4,7 +4,7 @@ const client = new Discord.Client();
 exports.run = (client, message, params) => {
 
    const ekip = new Discord.RichEmbed()
-      
+      .setColor("RANDOM")
        .setTitle("DEV GÜNCELLEME")
        .addField("Discord.JS-Commando sistemine geçiyoruz","Nedir bu Discord.JS-Commando ?\nDiscord`un standart sabit Discord.js modülünün daha geniş kapsamlı kodlara dönüşmesini ve bizlere kolaylık sağlayan bir tür modüldür.")
        .addField("Peki neler değişecek","Hemen hemen herşeyi en baştan sıfırdan değiştireceğim tek başıma her ne kadar yorucu olacaksada herşey sizler için.")
